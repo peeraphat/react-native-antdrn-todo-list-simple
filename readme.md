@@ -29,10 +29,10 @@
 ```json
 	// Create file .babelrc
 	{
-        "plugins": [
-            ["import", { "libraryName": "antd-mobile-rn" }]
-        ]
-    }
+		"plugins": [
+			["import", { "libraryName": "antd-mobile-rn" }]
+		]
+	}
 ```
 3. Usage
 ```javascript
