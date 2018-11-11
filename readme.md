@@ -46,7 +46,7 @@
 		} 
 	} 
 
-AppRegistry.registerComponent('HelloWorldApp',  ()  => HelloWorldApp);
+	AppRegistry.registerComponent('HelloWorldApp',  ()  => HelloWorldApp);
 ```
 
 ### JavaScript
