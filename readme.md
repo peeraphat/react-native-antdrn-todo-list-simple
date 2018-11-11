@@ -68,3 +68,30 @@
 ```javascript
 	Array.splice(_index_, _howmany_, _item1_, ....., _itemX_)
 ```
+
+### Publish your project
+1. run your project
+2. run this command 
+
+	`$ expo publish [project-dir]`
+
+### Building Standalone Apps
+
+1. Add json into app.json
+```json
+	"ios": {
+		"bundleIdentifier": "com.yourcompany.yourappname"
+	},
+	"android": {
+		"package": "com.yourcompany.yourappname"
+	}
+```
+
+2. run command
+   > Android
+
+   `$ expo build:android [project-dir]`
+
+   > ios
+
+   `$ expo build:ios [project-dir]`

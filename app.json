@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamesPee.todoList"
+    },
+    "android": {
+      "package": "com.jamesPee.todoList"
     }
   }
 }
