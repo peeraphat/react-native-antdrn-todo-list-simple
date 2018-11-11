@@ -21,6 +21,7 @@
 > [antd-mobile Documentation](https://mobile.ant.design/docs/react/introduce)
 
 1. installation
+
 	`$ npm  install antd-mobile-rn --save`
 	
 2. Use [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) (Recommended)
