@@ -39,7 +39,7 @@
 ```javascript
 	import React,  { Component }  from  'react';  
 	import  { AppRegistry }  from  'react-native'; 
-	import Button from  'antd-mobile-rn/lib/button';  
+	import { Button } from 'antd-mobile-rn' 
 
 	class  HelloWorldApp  extends  Component  {  
 		render()  {  
