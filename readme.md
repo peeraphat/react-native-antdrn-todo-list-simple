@@ -95,3 +95,11 @@
    > ios
 
    `$ expo build:ios [project-dir]`
+   
+ ## Start example project
+ 1. Download ZIP
+ 2. Extrack zip file
+ 3. Run command `$ npm install`
+ 4. Finaly, start project with expo
+ 	`$expo start`
+ 5. Let hack !
