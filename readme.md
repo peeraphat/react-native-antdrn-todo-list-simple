@@ -99,7 +99,7 @@
  ## Start example project
  1. Click `Clone or download`
  2. Click `Download ZIP`
- 3. Extrack zip file
+ 3. Extrack zip file and open project with Text editor
  4. Run command `$ npm install`
  5. Finaly, start project with expo
  	`$ expo start`
