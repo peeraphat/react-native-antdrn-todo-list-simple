@@ -102,5 +102,5 @@
  3. Extrack zip file
  4. Run command `$ npm install`
  5. Finaly, start project with expo
- 	`$expo start`
+ 	`$ expo start`
  6. Let hack !
