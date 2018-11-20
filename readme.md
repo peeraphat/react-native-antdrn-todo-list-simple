@@ -1,3 +1,4 @@
+
 # react-native with antd-mobile-rn
 
 > Simple Todo-list
@@ -95,7 +96,33 @@
    > ios
 
    `$ expo build:ios [project-dir]`
-   
+  
+ ## How to use Video component
+> Reference [Video](https://docs.expo.io/versions/latest/sdk/video.html)
+```javascript
+import  React  from  'react'
+import { Video } from 'expo'
+
+class HowToVideo extends React.Component {
+	render() {
+		return (
+			<Video
+				  source={{ uri: 'http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4' }} // source={require('./path/to/file')} for a video file asset in the source code directory.
+				  rate={1.0}
+				  volume={1.0}
+				  isMuted={false}
+				  resizeMode="cover"
+				  shouldPlay
+				  isLooping
+				  style={{ width: 300, height: 300 }}
+			/>
+		)
+	}
+}
+
+export default HowToVideo
+	
+```
  ## Start example project
  1. Click `Clone or download`
  2. Click `Download ZIP`
