@@ -123,6 +123,37 @@ class HowToVideo extends React.Component {
 export default HowToVideo
 	
 ```
+
+## How to add screens
+
+1. Add new router
+```jsx
+import { createSwitchNavigator, createStackNavigator } from  'react-navigation'
+import NewScreen from './path/of/screen/'
+
+// edit in /navigation/AppNavigator.js
+export  default createStackNavigator({
+	Main:  createSwitchNavigator({
+		Main:  MainTabNavigator,
+	}),
+	Page2:  NewScreen,	// import your new screen 
+})
+
+// Page2 is name of router
+// NewScreen is your component
+```
+2. Use router
+```jsx
+handleRouter() {
+	this.props.navigation.navigate('Page2')	// Page2 is a name of router
+}
+
+render() {
+	return(
+		<Button onClick={() => this.handleRouter()}>Go to Page2</Button>
+	)
+}
+```
  ## Start example project
  1. Click `Clone or download`
  2. Click `Download ZIP`
